@@ -88,9 +88,7 @@ holiday_hash.each do |season, stuff|
     supply.each do |value|
       if value == "BBQ"
         new_arr << holiday
-      end 
-    end 
+      end
+    end
   end  # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-
-end

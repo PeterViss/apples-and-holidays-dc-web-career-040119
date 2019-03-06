@@ -68,7 +68,7 @@ holiday_hash.each do |season, data|
  end
 
 
-end	
+end
     # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath

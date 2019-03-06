@@ -59,9 +59,9 @@ holiday_hash.each do |season, holiday|
       holiday = holiday.to_s.split("_").collect {|word| word.capitalize!}.join(" ")
       puts "  #{holiday}: #{supply.join(", ")}"
 
-end 
-end 
-end 
+end
+end
+end
     # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath

@@ -58,7 +58,7 @@ holiday_hash.each do |season, holiday|
       supply = supply.join(", ")
       holidays = holiday.to_s.split("_").collect {|word| word.capitalize!}.join(" ")
       puts "  #{holidays}: #{supply.join(", ")}"
-end 
+end
 end
 end
 end
